@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="denemekolarayüz.exe" version="1.0.0.0" publicKeyToken="2856405873b930b7" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="denemekolarayüz" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="denemekolarayüz.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Bildirim Seçenekleri
+          Windows Kullanıcı Hesabı Denetimi düzeyini değiştirmek istiyorsanız,
+           requestedExecutionLevel düğümünü aşağıdakilerden biriyle değiştirin.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Geriye dönük uyumluluk için Dosya ve Kayıt Defteri Sanallaştırması
+         kullanmak istiyorsanız, requestedExecutionLevel düğümünü silin.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="denemekolarayüz.exe" size="12256">
+      <assemblyIdentity name="denemekolarayüz" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ga7QA/aDux+Pagm5uxn8diobz+I10O6NPYz9S0P1X90=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="denemekolarayüz.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-DN8P36R\onur2" issuerKeyHash="f143a602f73672181a7904bcf4e4a857f84fa5d5" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>oD6WTeU+g7F4Zy2kMcq2DC/vt8avFazleXdS3llPCMM=</DigestValue></Reference></SignedInfo><SignatureValue>TuuH07vx/VK8/jWxOXTbC6aRUNx+EgBdRUi4qS43rx8bcrgvL6ezQya6yhV+1GBGn5f0HYyPXRL40lFP7SCopZOJTamUqSpkV/87tFd0AzKUaFLCIDIlJj2UXoKmPI8rW1gBO5f+3OvUE6x8Blf/Fcqa0vGj3ZWZsMP8OYBFWEQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>yLM9hZNbpRZ8czQy0DusOC9aYqa4zo82QdkF3Qc3eE0ql6SJQsvAHiGkiLoiE5q66G7VTmIQu37eufgyluLPzQP42mvYlTuZ3pwj0KjIwlUfKDeI1VUAy2fTJJr0cmqLItMzUM/2oCP3fjmIATw1xZe7nacHP19nBSccQS3M5y0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c3084f59de527779e5ac15afc6b7ef2f0cb6ca31a42d6778b1833ee54d963ea0" Description="" Url=""><as:assemblyIdentity name="denemekolarayüz.exe" version="1.0.0.0" publicKeyToken="2856405873b930b7" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-DN8P36R\onur2</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>vl69IL8rhyON8YleKxQDqaA/Yp4SqtrIZJ9QFLvpPXk=</DigestValue></Reference></SignedInfo><SignatureValue>J2ZIGEev+cO8mJ2HBAa8qbHmzfZq4xu+Jnudl+tIWGa/qhagGrGDp3QyEp3ptO05WkV0rfXdzsaoVgRPn3MVVGdXe8W12WBGoA8KXk41OGYfcQgSJnQYLV8GzSkZeyFEsXYlI3ilEMMEPzMkAP4Nzd+2pMN+o/5xueIfzZrwKqA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>yLM9hZNbpRZ8czQy0DusOC9aYqa4zo82QdkF3Qc3eE0ql6SJQsvAHiGkiLoiE5q66G7VTmIQu37eufgyluLPzQP42mvYlTuZ3pwj0KjIwlUfKDeI1VUAy2fTJJr0cmqLItMzUM/2oCP3fjmIATw1xZe7nacHP19nBSccQS3M5y0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQGiKibYuY8L9MG8CkSHZxgTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEQATgA4AFAAMwA2AFIAXABvAG4AdQByADIwHhcNMjQwNjE4MjAyMzI1WhcNMjUwNjE5MDIyMzI1WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEQATgA4AFAAMwA2AFIAXABvAG4AdQByADIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMizPYWTW6UWfHM0MtA7rDgvWmKmuM6PNkHZBd0HN3hNKpekiULLwB4hpIi6IhOauuhu1U5iELt+3rn4Mpbiz80D+Npr2JU7md6cI9CoyMJVHyg3iNVVAMtn0ySa9HJqiyLTM1DP9qAj9345iAE8NcWXu52nBz9fZwUnHEEtzOctAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAFrw9i6mJHLNhYrdUdvl/utKMg4p8gm4MwJUEyHGfCnNipkMKROGlJWqHjLoeyoqy1tEXgTUZob4EDFQ/o3vZg6AuK8d8r4i9toqA+SKRe5BmFiZHbezWe3AmsnZ3k75qwktKS5l9NasypX1DSVwoh2gJGXvcGnpMbwIP8eDp0Do=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
